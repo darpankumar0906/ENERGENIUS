@@ -2,6 +2,15 @@
 
 Distributed Artificial-Light Energy Harvesting Platform API Engine.
 
+## Run the frontend
+
+```bash
+npm install
+npm run dev
+```
+
+The Vite app runs at `http://localhost:5173`.
+
 ## Features
 - **Hardware Telemetry Ingestion**: `POST /api/readings` receives Python Virtual Hardware sensor payloads.
 - **Physics Formulas**: Enforces $P = V \times I$ ($V$ in Volts, $I$ in Amperes) and cumulative $E = P \cdot t$ (Wh).

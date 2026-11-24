@@ -13,8 +13,8 @@ import {
   ArrowRight,
   CheckCircle2
 } from 'lucide-react';
-import { useSimulation } from '../../context/SimulationContext';
-import { formatEnergy, formatSoC, formatVoltage, formatCurrent, formatPower, formatLux, formatBalance } from '../../utils/telemetrySafety';
+import { useSimulation } from '../context/SimulationContext';
+import { formatEnergy, formatSoC, formatVoltage, formatCurrent, formatPower, formatLux, formatBalance } from '../utils/telemetrySafety';
 
 export interface HardwareNodeInfo {
   id: 'esp32' | 'pv' | 'pmic' | 'storage' | 'iot';
